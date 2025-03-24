@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NioLand</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/stylesheet.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container d-flex align-items-center justify-content-between p-3">
+            <div class="logo">
+                <img src="Imgas/logo.png" alt="logo">
+            </div>
+            <div class="navbar d-none d-lg-block d-lg-flex">
+                <div class="menu">
+                    <div class="menu-item">Homepages</div>
+                    <div class="dropdown">
+                        <div class="dropdown-item">
+                            <img src="https://via.placeholder.com/24" alt="Icon">
+                            <div class="text">
+                                <div class="title">Analytics SAAS</div>
+                                <div class="description">All In One Analytics Tool</div>
+                            </div>
+                        </div>
+                        <div class="dropdown-item">
+                            <img src="https://via.placeholder.com/24" alt="Icon">
+                            <div class="text">
+                                <div class="title">Business Tracker</div>
+                                <div class="description">Track Business Performance</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">About</div>
+
+                <div class="menu">
+                    <div class="menu-item">Pages</div>
+                    <div class="dropdown">
+                        <div class="dropdown-item">
+                            <img src="https://via.placeholder.com/24" alt="Icon">
+                            <div class="text">
+                                <div class="title">About Us</div>
+                                <div class="description">Learn More About Us</div>
+                            </div>
+                        </div>
+                        <div class="dropdown-item">
+                            <img src="https://via.placeholder.com/24" alt="Icon">
+                            <div class="text">
+                                <div class="title">Our Team</div>
+                                <div class="description">Meet Our Experts</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">Blogs</div>
+                <div class="menu-item">Contacts</div>
+            </div>
+            <button class="purchase-btn">Purchase</button>
+            <button type="button" class="btn btn-primary d-lg-none" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    
+    <main>
+        <div class="container-fluid banner-img d-flex align-items-center justify-content-between p-5">
+            <div class="col-6 text-content">
+                <div class="title">We Boost Growth For Your Startup <br><span class="b-color">Business</span></div>
+                <p>
+                    Fuel the growth of your startup business with our comprehensive solutions designed to boost your
+                    success and achieve sustainable growth.
+                </p>
+                <div class="btn-group fw-bold">
+                    <div class="btn1 get-started">Get Started</div>
+                    <div class="btn1 learn-more">Learn More</div>
+                </div>
+                <div class="stats mt-4">
+                    <div>
+                        <strong class="fw-bold fs-3">259K</strong><br>
+                        <span>Download App</span>
+                    </div>
+                    <div>
+                        <strong class="fw-bold fs-3">219k+</strong><br>
+                        <span>Total Users</span>
+                    </div>
+                    <div>
+                        <strong class="fw-bold fs-3">25k+</strong><br>
+                        <span>Reviews & Ratings</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 side-img">
+                <img src="Imgas/banner-cover-1.jpg" alt="project">
+            </div>
+        </div>
+
+        <div class="brand container align-items-center justify-content-center p-5">
+            <p class="d-flex justify-content-center fs-4 text-black-50">Over <span class="text-dark ps-2 pe-2">32K+
+                    software </span> business growing with NioLand</p>
+            <ul class="collab-brand d-flex align-items-center justify-content-center">
+                <li>
+                    <img src="Imgas/a.png" alt="a">
+                </li>
+                <li>
+                    <img src="Imgas/b.png" alt="b">
+                </li>
+                <li>
+                    <img src="Imgas/c.png" alt="c">
+                </li>
+                <li>
+                    <img src="Imgas/d.png" alt="d">
+                </li>
+                <li>
+                    <img src="Imgas/e.png" alt="e">
+                </li>
+            </ul>
+        </div>
+
+        <div class="management container pt-5 pb-5">
+            <h1 class="manag-text">
+                Delightfully simple and deceptively
+                <br>
+                powerful task management
+            </h1>
+            <p class="pt-3">Our task management solution offers a delightful and simple user experience while
+                <br> providing powerful
+                features to effectively manage and organize your tasks.
+            </p>
+            <div class="manage-card-container">
+                <div class="manage-card d-flex col-12">
+                    <div class="card-item col-6">
+                        <div class="manage-card-img d-flex align-items-center">
+                            <img src="Imgas/icon-one.png" alt="icon">
+                        </div>
+                        <div class="card-text-wraper">
+                            <div class="card-text text-align-start d-flex fs-5 fw-bold">With You Everywhere</div>
+                            <div class="card-des ">What if you could get all your website tasks
+                                off your plate and focus only on the fun stuff.
+                            </div>
+                            <div class="card-dow text-align-start d-flex">
+                                Download Apps
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-item col-6">
+                        <div class="manage-card-img d-flex align-items-center">
+                            <img src="Imgas/icon-two (1).png" alt="icon">
+                        </div>
+                        <div class="card-text-wraper">
+                            <div class="card-text text-align-start d-flex fs-5 fw-bold">There’s a template for that
+                            </div>
+                            <div class="card-des ">I must explain to you how all this mistaken idea denou ncing plea
+                                sure and praising pain and typesetting
+                            </div>
+                            <div class="card-dow text-align-start d-flex">Start with templates</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="manage-card d-flex col-12">
+                    <div class="card-item col-6">
+                        <div class="manage-card-img d-flex align-items-center">
+                            <img src="Imgas/icon-three (1).png" alt="icon">
+                        </div>
+                        <div class="card-text-wraper">
+                            <div class="card-text text-align-start d-flex fs-5 fw-bold">Connect with your other tools
+                            </div>
+                            <div class="card-des ">What if you could get all your website tasks off your plate and focus
+                                only on the fun stuff.
+                            </div>
+                            <div class="card-dow text-align-start d-flex">
+                                See all features</div>
+                        </div>
+                    </div>
+                    <div class="card-item col-6">
+                        <div class="manage-card-img d-flex align-items-center">
+                            <img src="Imgas/icon-four (1).png" alt="icon">
+                        </div>
+                        <div class="card-text-wraper">
+                            <div class="card-text text-align-start d-flex fs-5 fw-bold">Make Nioland yours</div>
+                            <div class="card-des ">Praising pain and typesetting industry has been the indust standard
+                                dummy text ever since was complete.
+                            </div>
+                            <div class="card-dow text-align-start d-flex">Install integrations</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Mangment -->
+
+        <section class="project-manage pt-5">
+            <div class=" container">
+                <div class="col-12 d-flex align-items-start justify-content-start gap-5">
+                    <div class="col-6">
+                        <h1 class="fw-bold pb-4">What you get with nioland project management</h1>
+                        <ul class="time-line-dots">
+                            <li>
+                                <div class="circle"></div>
+                                <div class="project-text">
+                                    <h3 class="fw-bold">Superior quality of work</h3>
+                                    <p class="text-secondary">Our attention to detail and quality is unmatched in the
+                                        industry. We’re not just a
+                                        resource provider but also a key strategic technology partner ready .</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="circle"></div>
+                                <div class="project-text">
+                                    <h3 class="fw-bold">
+                                        Flexible scaling</h3>
+                                    <p class="text-secondary">We’re not just a resource provider but also a key
+                                        strategic technology partner ready
+                                        to meet tasks of any complexity and deliver a high-quality project.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="circle"></div>
+                                <div class="project-text d-flex">
+                                    <div class="fw-bold fs-5">Have a Questions ?</div>
+                                    <span class="text-primary fw-bold ps-2">Speak To An Expert</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 d-flex justify-content-center">
+                        <div class="project-img">
+                            <div class="image-wrapper">
+                                <img src="./Imgas/section-cover-1.jpg" alt="cover" class="main-img">
+                                <img src="./Imgas/section-cover-1-a.png" alt="cover1" class="overlay-img">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 d-flex align-items-start justify-content-start gap-4 pt-5 pb-5">
+                    <div class="col-5 d-flex justify-content-start">
+                        <div class="project-img p-img-color1">
+                            <div class="image-wrapper">
+                                <img src="./Imgas/section-cover-2.jpg" alt="cover" class="main-img">
+                                <img src="./Imgas/section-cover-2-a.png" alt="cover1" class="overlay-img1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <h1 class="fw-bold pb-4">We Are Here to Make Your Website Look More Elegant and Stylish!</h1>
+
+                        <p class="pro-text pt-4">
+                            When you`re building a new product and don`t have the exact plan we will help to create a
+                            strategy, our attention to detail and quality is unmatched in the industry. We’re not just a
+                            resource provider but also a key strategic.
+                        </p>
+                        <div class="pt-5">
+                            <i class="fa-solid fa-check" style="color: #075ced;"></i>
+                            <span class="ps-3">Quality service and support all time.</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check" style="color: #075ced;"></i>
+
+                            <span class="ps-3">Support for service 24 hours and 7 days in a week.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer About -->
+
+        <section class="pt-5">
+            <div class="container">
+                <h1 class="d-flex justify-content-center fw-bold">
+                    What our amazing customers say
+                    about Codely
+                </h1>
+                <p class="d-flex justify-content-center customer-text py-4">Our amazing customers love Codely for its
+                    exceptional service, innovative solutions, and <br>measurable
+                    impact on their businesses. Don't just take our word for it, hear it from them!
+                </p>
+                <div class="btn-group fw-bold d-flex justify-content-center pb-5">
+                    <div class="btn1 get-started">Get Started</div>
+                    <div class="btn1 learn-more">Read Case Study</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5 pb-5">
+            <div class="container customer-bg justify-content-center">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner p-4">
+                        <!-- First Item -->
+                        <div class="carousel-item active">
+                            <div class="d-flex align-items-center col-12">
+                                <div class="carousel-bg col-4">
+                                    <img src="./Imgas/people-6.png" alt="people-6" class="carousel-img">
+                                </div>
+                                <div class="customer-text ps-4 col-8 p-4 ">
+                                    <p class="fs-2 fw-bold"> want my team to spend time thinking about high level UX
+                                        problems, rather than
+                                        mindlessly repeating busy work. NioLand helps them do that.
+                                    </p>
+                                    <div class="d-flex justify-content-between pt-3">
+                                        <div>
+                                            <div class="fs-5 fw-bold">Robert Mayer</div>
+                                            <div style="font-size: 15px;" class="text-secondary">Founder of Luminous
+                                            </div>
+                                        </div>
+                                        <img src="./Imgas/luminous-red.png" alt="c" class="customer-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Second Item -->
+                        <div class="carousel-item">
+                            <div class="d-flex align-items-center col-12">
+                                <div class="carousel-bg col-4">
+                                    <img src="./Imgas/people-6.png" alt="people-6" class="carousel-img">
+                                </div>
+                                <div class="customer-text ps-4 col-8 p-4 ">
+                                    <p class="fs-2 fw-bold"> want my team to spend time thinking about high level UX
+                                        problems, rather than
+                                        mindlessly repeating busy work. NioLand helps them do that.
+                                    </p>
+                                    <div class="d-flex justify-content-between pt-3">
+                                        <div>
+                                            <div class="fs-5 fw-bold">Robert Mayer</div>
+                                            <div style="font-size: 15px;" class="text-secondary">Founder of Luminous
+                                            </div>
+                                        </div>
+                                        <img src="./Imgas/sitemark-red.png" alt="c" class="customer-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Third Item -->
+                        <div class="carousel-item">
+                            <div class="d-flex align-items-center col-12">
+                                <div class="carousel-bg col-4">
+                                    <img src="./Imgas/people-6.png" alt="people-6" class="carousel-img">
+                                </div>
+                                <div class="customer-text ps-4 col-8 p-4 ">
+                                    <p class="fs-2 fw-bold"> want my team to spend time thinking about high level UX
+                                        problems, rather than
+                                        mindlessly repeating busy work. NioLand helps them do that.
+                                    </p>
+                                    <div class="d-flex justify-content-between pt-3">
+                                        <div>
+                                            <div class="fs-5 fw-bold">Robert Mayer</div>
+                                            <div style="font-size: 15px;" class="text-secondary">Founder of Luminous
+                                            </div>
+                                        </div>
+                                        <img src="./Imgas/cloud-red.png" alt="c" class="customer-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev  carousel-control" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon carousel-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next carousel-control" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon carousel-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 collab-brand">
+            <div class="container">
+                <div>
+                    <div class="fw-bold fs-1 text-center">
+                        Collab integrates with all your
+                        <span class="d-block">favourite tools.</span>
+                    </div>
+                    <div class="text-center pt-3 fs-5 collab-text">
+                        Adipiscing nisi sem gravida enim eu adipiscing sagittis scelerisque
+                        <span class="d-block"> augue nulla massa aliquet
+                            fringilla nullam eget</span>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 pt-5 collab-icons">
+                    <div class="icon-wrapper">
+                        <img src="./Imgas/tool-1.png" alt="tool 1" class="collab-icon">
+                    </div>
+                    <div class="icon-wrapper">
+                        <img src="./Imgas/tool-2.png" alt="tool 2" class="collab-icon">
+                    </div>
+                    <div class="icon-wrapper">
+                        <img src="./Imgas/tool-3.png" alt="tool 3" class="collab-icon">
+                    </div>
+                    <div class="icon-wrapper">
+                        <img src="./Imgas/tool-4.png" alt="tool 4" class="collab-icon">
+                    </div>
+                    <div class="icon-wrapper">
+                        <img src="./Imgas/tool-6.png" alt="tool 5" class="collab-icon">
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-end align-items-center flex-wrap gap-4 pt-5 collab-icons">
+                    <div class="icon-wrapper">
+                        <img src="./Imgas/tool-7.png" alt="tool 1" class="collab-icon">
+                    </div>
+                    <div class="icon-wrapper">
+                        <img src="./Imgas/tool-8.png" alt="tool 2" class="collab-icon">
+                    </div>
+                    <div class="icon-wrapper">
+                        <img src="./Imgas/tool-9.png" alt="tool 3" class="collab-icon">
+                    </div>
+                    <div class="icon-wrapper">
+                        <img src="./Imgas/tool-10.png" alt="tool 4" class="collab-icon">
+                    </div>
+                    <div class="icon-wrapper">
+                        <img src="./Imgas/tool-11.png" alt="tool 5" class="collab-icon">
+                    </div>
+                </div>
+
+                <div class="col-12 py-5 d-flex">
+                    <div class="d-flex col-4">
+                        <div class="play-demo-dased ">
+                            <div class="play-demo-bg">
+                                <i class="fa-solid fa-play" style="color: #fafcff;"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center ps-3 fs-4 fw-bold">
+                            Watch Demo
+                        </div>
+                    </div>
+                    <div class="col-8 d-flex justify-content-around">
+                        <div>
+                            <span class="fs-2 fw-bold">
+                                500K+
+                            </span>
+                            <span class="d-block fs-5 ">
+                                Active Users
+                            </span>
+                        </div>
+                        <div>
+                            <span class="fs-2 fw-bold">
+                                100K+
+                            </span>
+                            <span class="d-block fs-5 ">
+                                Active Teams
+                            </span>
+                        </div>
+                        <div>
+                            <span class="fs-2 fw-bold">
+                                20K+
+                            </span>
+                            <span class="d-block fs-5 ">
+                                Positive Reviews
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="col-12 d-flex">
+                    <div class="col-4 ask-main">
+                        <div class="fs-1 fw-bold">
+                            Frequently Asked
+                            <span class="d-block"> Questions</span>
+                        </div>
+                        <div class="fs-5 ask-color">
+                            Adipiscing nisi sem gravida enim eu
+                            <span class="d-block">adipiscing sagittis scelerisque augue.</span>
+                        </div>
+                        <div class="btn-group fw-bold">
+                            <div class="btn1 get-started">Go To Support Center</div>
+                            <div class="btn1 learn-more">Contact Us</div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        <span class="fs-5 fw-bold">How Loang Does It Take To Ship Order?</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"> The shipping time may vary depending on your location
+                                        and the shipping method chosen. Please refer to our shipping policy for more
+                                        details. </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        <span class="fs-5 fw-bold"> What Payment Method Do You Accept</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"> We accept various payment methods, including major
+                                        credit cards, debit cards, and online payment platforms like PayPal. </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        <span class="fs-5 fw-bold">What shipping options do you have?</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"> We offer a range of shipping options to accommodate
+                                        your needs. These options include standard shipping, express shipping, and
+                                        international shipping. The availability of specific shipping methods may vary
+                                        depending on your location and the product you are ordering. During the checkout
+                                        process, you can select the shipping option that best suits your preferences and
+                                        requirements. </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        <span class="fs-5 fw-bold">How do I make changes to an existing order?</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        To make changes to an existing order, please contact our customer support team
+                                        as soon as possible. Provide them with your order details and the specific
+                                        changes you would like to make. Our team will assist you in updating your order,
+                                        such as modifying the shipping address, adding or removing items, or adjusting
+                                        quantities. Please note that order modifications may be subject to certain
+                                        limitations and availability of the requested changes.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        <span class="fs-5 fw-bold">When will my order arrive?</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        The delivery time of your order depends on various factors such as the shipping
+                                        method selected, the destination, and any applicable customs procedures. Once
+                                        your order is processed and shipped, you will receive a confirmation email with
+                                        tracking information to monitor the progress of your package. For more specific
+                                        details about the estimated delivery time, please refer to the shipping
+                                        information provided during the checkout process or contact our customer support
+                                        team for assistance.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="py-5">
+            <div class="container try-bg">
+                <div class="py-5">
+                    <div class="fw-bold try-text">
+                        Start your free 30-day trial
+                    </div>
+                    <p class="try-p ">
+                        Deliver faster, collaborate better and innovate more effectively without the high
+                        <span class="d-block "> price tag or months-long implementation required by other
+                            products.</span>
+                    </p>
+                    <div class="d-flex gap-2 pt-5">
+                        <input type="email" placeholder="name@yourcompany.com">
+                        <div class="btn1 get-started">Start Free Trial</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <section class="py-5 ">
+            <div class="container">
+                <div class="footer-wraper">
+                    <div class="footer-icon">
+                        <img src="./Imgas/logo.png" alt="logo">
+                    </div>
+                    <ul class="footer-link">
+                        <li>COMPANY</li>
+                        <li>PRODUCT</li>
+                        <li>SUPPORT</li>
+                        <li>OFFICE</li>
+                    </ul>
+                </div>
+                <div class="footer-border pt-5"></div>
+
+                <div class="d-flex justify-content-between pt-5">
+                    <ul class="d-flex gap-5 fs-5 ps-0 ">
+                        <li>
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-twitter"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-square-up-right"></i>
+                        </li>
+                    </ul>
+                    <div class="footer-text">
+                        © 2011 - 2025 <span class="footer-color">Softnio. </span>All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

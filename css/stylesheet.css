@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Inconsolata UltraExpanded';
+    src: url('InconsolataUltraExpanded-ExtraLight.woff2') format('woff2'),
+        url('InconsolataUltraExpanded-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata UltraExpanded';
+    src: url('InconsolataUltraExpanded-ExtraBold.woff2') format('woff2'),
+        url('InconsolataUltraExpanded-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata UltraExpanded';
+    src: url('InconsolataUltraExpanded-Black.woff2') format('woff2'),
+        url('InconsolataUltraExpanded-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata UltraExpanded';
+    src: url('InconsolataUltraExpanded-Bold.woff2') format('woff2'),
+        url('InconsolataUltraExpanded-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata Condensed';
+    src: url('InconsolataCondensed-Black.woff2') format('woff2'),
+        url('InconsolataCondensed-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata UltraExpanded';
+    src: url('InconsolataUltraExpanded-Regular.woff2') format('woff2'),
+        url('InconsolataUltraExpanded-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata UltraExpanded';
+    src: url('InconsolataUltraExpanded-Light.woff2') format('woff2'),
+        url('InconsolataUltraExpanded-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata Condensed';
+    src: url('InconsolataCondensed-Medium.woff2') format('woff2'),
+        url('InconsolataCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata UltraExpanded';
+    src: url('InconsolataUltraExpanded-SemiBold.woff2') format('woff2'),
+        url('InconsolataUltraExpanded-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata Condensed';
+    src: url('InconsolataCondensed-Bold.woff2') format('woff2'),
+        url('InconsolataCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('InconsolataExpanded-Black.woff2') format('woff2'),
+        url('InconsolataExpanded-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata UltraExpanded';
+    src: url('InconsolataUltraExpanded-Medium.woff2') format('woff2'),
+        url('InconsolataUltraExpanded-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('InconsolataExpanded-Bold.woff2') format('woff2'),
+        url('InconsolataExpanded-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('InconsolataExpanded-ExtraBold.woff2') format('woff2'),
+        url('InconsolataExpanded-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('InconsolataExpanded-Light.woff2') format('woff2'),
+        url('InconsolataExpanded-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('InconsolataExpanded-Medium.woff2') format('woff2'),
+        url('InconsolataExpanded-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('InconsolataExpanded-SemiBold.woff2') format('woff2'),
+        url('InconsolataExpanded-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata ExtraExpanded';
+    src: url('InconsolataExtraExpanded-Black.woff2') format('woff2'),
+        url('InconsolataExtraExpanded-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('InconsolataExpanded-ExtraLight.woff2') format('woff2'),
+        url('InconsolataExpanded-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('InconsolataExpanded-Regular.woff2') format('woff2'),
+        url('InconsolataExpanded-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata SemiCondensed';
+    src: url('InconsolataSemiCondensed-ExtraLight.woff2') format('woff2'),
+        url('InconsolataSemiCondensed-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata ExtraExpanded';
+    src: url('InconsolataExtraExpanded-Bold.woff2') format('woff2'),
+        url('InconsolataExtraExpanded-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata ExtraExpanded';
+    src: url('InconsolataExtraExpanded-Medium.woff2') format('woff2'),
+        url('InconsolataExtraExpanded-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata ExtraExpanded';
+    src: url('InconsolataExtraExpanded-SemiBold.woff2') format('woff2'),
+        url('InconsolataExtraExpanded-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata ExtraExpanded';
+    src: url('InconsolataExtraExpanded-ExtraLight.woff2') format('woff2'),
+        url('InconsolataExtraExpanded-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata ExtraExpanded';
+    src: url('InconsolataExtraExpanded-ExtraBold.woff2') format('woff2'),
+        url('InconsolataExtraExpanded-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata ExtraExpanded';
+    src: url('InconsolataExtraExpanded-Regular.woff2') format('woff2'),
+        url('InconsolataExtraExpanded-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata ExtraExpanded';
+    src: url('InconsolataExtraExpanded-Light.woff2') format('woff2'),
+        url('InconsolataExtraExpanded-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata SemiExpanded';
+    src: url('InconsolataSemiExpanded-Black.woff2') format('woff2'),
+        url('InconsolataSemiExpanded-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata SemiExpanded';
+    src: url('InconsolataSemiExpanded-Bold.woff2') format('woff2'),
+        url('InconsolataSemiExpanded-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
