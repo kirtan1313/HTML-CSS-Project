@@ -1,5 +1,538 @@
-/* @media (max-width: 991px) {
-    .navbar, .purchase-btn {
-        display: none !important;
+@media (max-width: 575px) {
+    .text-content .title {
+        font-size: 24px;
     }
-} */
+
+    .text-content {
+        width: 100%;
+    }
+
+    .text-content p {
+        font-size: 15px;
+    }
+
+    .btn-group {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stats {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .side-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .side-img{
+        padding-top: 15px;
+    }
+    .collab-brand {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: space-around;
+        gap: 19px;
+    }
+
+    .collab-brand li img {
+        width: 80px;
+        padding-bottom: 12px;
+    }
+
+    .brand-img {
+        max-width: 70px;
+    }
+
+    .manag-text {
+        font-size: 24px;
+    }
+
+    .management>p {
+        font-size: 15px;
+    }
+
+    .card-item {
+        width: 100%;
+        display: block;
+    }
+
+    .project-text {
+        width: 100%;
+        font-size: 18px;
+        padding-top: 0;
+    }
+    .project-main-text h1{
+        font-size: 26px;
+    }
+    .project-text h3{
+        font-size: 18px;
+    }
+    .project-text p{
+        font-size: 16px;
+    }
+
+    .project-main-img {
+        width: 100%;
+    }
+
+    .project-img {
+        width: 100%;
+    }
+
+    .overlay-img {
+        top: -44px;
+        left: 70%;
+        width: 130px;
+    }
+
+    .project-main-img-wrap {
+        width: 100%;
+    }
+
+    .project-heding {
+        font-size: 24px;
+        padding-top: 30px;
+    }
+
+    .pro-text {
+        font-size: 15px;
+    }
+
+    .customer-text {
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .customer-text p {
+        font-size: 20px;
+    }
+
+    .customer-img {
+        width: 120px;
+        height: 33px;
+    }
+
+    .collab-icon {
+        width: 109px;
+    }
+
+    .palay-main-wraper {
+        width: 100%;
+    }
+
+    .play-demo-follow {
+        width: 100%;
+        gap: 10px;
+        padding-top: 25px;
+    }
+
+    .ask-color {
+        font-size: 20px;
+    }
+
+    .accordion-text {
+        font-size: 17px;
+    }
+    .try-text {
+        font-size: 20px;
+    }
+    .footer-link{
+        gap: 20px;
+        padding-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    .testimonial-section h1 {
+        font-size: 26px;
+    }
+    .carousel-control-next {
+        right: -3px;
+    }
+    .testimonial-section p{
+        font-size: 15px;
+    }
+   
+}
+
+
+@media (min-width: 576px) {
+    .text-content .title {
+        font-size: 34px;
+    }
+    .testimonial-section h1 {
+        font-size: 26px;
+    }
+    .text-content {
+        width: 100%;
+    }
+
+    .btn-group {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stats {
+        display: flex;
+        justify-content: space-around;
+        padding: 15px 0;
+    }
+
+    .collab-brand {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: center;
+        gap: 27px;
+    }
+
+    .collab-brand li img {
+        width: 115px;
+        padding-bottom: 16px;
+    }
+
+    .brand-img {
+        max-width: 90px;
+    }
+
+    .manag-text {
+        font-size: 30px;
+    }
+
+    .management>p {
+        font-size: 18px;
+    }
+
+    .card-item {
+        width: 100%;
+        display: flex;
+    }
+
+    .project-text {
+        width: 100%;
+
+    }
+
+    .project-heading {
+        font-size: 22px;
+    }
+
+    .pro-text {
+        font-size: 16px;
+    }
+
+    .project-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .overlay-img {
+        width: 120px;
+        top: -30px;
+        right: -10%;
+    }
+
+    .overlay-img1 {
+        width: 120px;
+        bottom: -30px;
+        left: -10%;
+    }
+
+    .customer-img {
+        width: 119px;
+        height: 32px;
+    }
+
+    .collab-icon {
+        width: 156px;
+    }
+
+    .palay-main-wraper {
+        width: 100%;
+    }
+
+    .play-demo-follow {
+        width: 100%;
+        padding-top: 25px;
+    }
+    .ask-color{
+       text-align: center;
+    }
+    .ask-main-div{
+        text-align: center;
+    }
+    .footer-link{
+        gap: 20px;
+        padding-top: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+    .carousel-control-prev {
+        position: absolute;
+        left: -25px;
+    }
+    .carousel-control-next {
+        right: -28px;
+    }
+}
+
+@media (max-width:767px) {
+    .carousel-bg {
+        width: 450px;
+    }
+    .try-text {
+        font-size: 30px;
+    }
+
+    .try-p {
+        font-size: 16px;
+    }
+
+    .try-input {
+        width: 100%;
+    }
+}
+
+@media(min-width:768px) {
+    .text-content .title {
+        font-size: 44px;
+    }
+
+    .text-content {
+        width: 100%;
+    }
+
+    .side-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn-group {
+        display: flex;
+        justify-content: start;
+    }
+
+    .brand-text {
+        font-size: 22px;
+    }
+
+    .collab-brand {
+        padding: 0;
+    }
+
+    .collab-brand li img {
+        width: 130px;
+        padding-bottom: 16px;
+    }
+
+    .manag-text {
+        font-size: 40px;
+    }
+
+    .management>p {
+        font-size: 18px;
+    }
+
+    .project-heding {
+        font-size: 38px;
+        padding-top: 30px;
+    }
+
+
+    .project-heading {
+        font-size: 26px;
+    }
+
+    .pro-text {
+        font-size: 17px;
+    }
+
+    .testimonial-section h1 {
+        font-size: 26px;
+    }
+
+    .customer-text {
+        font-size: 18px;
+        padding: 20px 0;
+        /* width: 60%; */
+    }
+
+    .carousel-bg {
+        width: 350px;
+    }
+
+    /* .customer-text p {
+        font-size: 25px;
+    } */
+
+    .collab-icon {
+        width: 185px;
+    }
+
+    .palay-main-wraper {
+        width: 50%;
+    }
+
+    .play-demo-follow {
+        width: 50%;
+        padding-top: 25px;
+
+    }
+    .ask-color {
+       font-size: 20px;
+    }
+    .accordion-text{
+        font-size: 21px;
+        padding-top: 10px;
+    }
+    .footer-link{
+        gap: 35px;
+        padding-top: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+/* Small Screens (Mobile) */
+@media (max-width: 991px) {
+    .navbar {
+        display: none;
+    }
+
+    .btn-primary {
+        display: block;
+    }
+
+    .modal-backdrop {
+        width: 0;
+    }
+
+    .collab-brand {
+        padding: 0;
+    }
+
+    .overlay-img {
+        bottom: -36px;
+        right: 78%;
+        width: 130px;
+    }
+
+    /* .testimonial-section h1 {
+        font-size: 40px;
+    } */
+
+   
+
+    /* .customer-text {
+        font-size: 18px;
+        padding: 0 15px;
+    } */
+
+    .carousel-bg {
+        width: 350px;
+    }
+
+}
+
+/* Large Screens (Desktop) */
+@media (min-width: 992px) {
+    .btn-primary {
+        display: none;
+    }
+
+    .text-content .title {
+        font-size: 54px;
+    }
+
+    .text-content {
+        width: 50%;
+    }
+
+    .side-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .stats {
+        display: flex;
+        justify-content: start;
+    }
+
+    .card-item {
+        width: 50%;
+    }
+
+    .project-main-text {
+        width: 50%;
+    }
+
+    .project-text {
+        font-size: 18px;
+        padding-top: 0;
+    }
+
+    .project-main-img {
+        width: 50%;
+    }
+
+    .project-main-img-wrap {
+        width: 100%;
+    }
+
+    .project-heding {
+        font-size: 24px;
+        padding-top: 30px;
+    }
+
+
+    .project-heading {
+        font-size: 30px;
+    }
+
+    .try-text {
+        font-size: 60px;
+        text-align: center;
+    }
+    .footer-link {
+        width: 50%;
+    }
+
+}
+
+@media(min-width:1200px) {
+    .side-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .collab-brand li img {
+        padding-bottom: 0;
+        width: 130px;
+    }
+
+    .collab-brand {
+        /* padding: 80px 0; */
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .project-main-img-wrap {
+        width: 40%;
+    }
+
+    .project-heding {
+        font-size: 34px;
+        padding-top: 30px;
+    }
+
+    .pro-text {
+        font-size: 20px;
+    }
+
+    .collab-icon {
+        width: 200px;
+    }
+
+}
